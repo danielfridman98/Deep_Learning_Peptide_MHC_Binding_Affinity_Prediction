@@ -11,3 +11,5 @@ The architectural overview is as follows:
 1) A structurally-aware embedding is created for both peptide and MHC alleles using the pretrained full SSA model from Bepler et al., 2019
 2) Each embedding tensor (batch_size x maximum_sequence_length x embedding) is fed into a bi-directional GRU which creates a hidden vector representation for both peptides and MHC alleles
 3) The hidden representations of peptide and MHC allele seqeunces are concatenated and fed through 3 feedforward layers to output the final binding probability of peptide to MHC allele
+
+Our trained model is applied to peptides sequenced from 14 proteins in the novel coronavirus (SARS-CoV-2).
