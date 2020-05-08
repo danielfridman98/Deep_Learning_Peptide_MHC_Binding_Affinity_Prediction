@@ -13,3 +13,5 @@ The architectural overview is as follows:
 3) The hidden representations of peptide and MHC allele seqeunces are concatenated and fed through 3 feedforward layers to output the final binding probability of peptide to MHC allele
 
 Our trained model is applied to peptides sequenced from 14 proteins in the novel coronavirus (SARS-CoV-2).
+
+Files that are too big to store in GitHub - peptide_full_data2.pt - can be accessed in the Google Drive at https://drive.google.com/drive/folders/1YsUF74RZjhjf8w7ntydEQ6jDBkD-45Ou?usp=sharing.
