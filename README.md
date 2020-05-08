@@ -15,3 +15,5 @@ The architectural overview is as follows:
 Our trained model is applied to peptides sequenced from 14 proteins in the novel coronavirus (SARS-CoV-2).
 
 Files that are too big to store in GitHub - peptide_full_data2.pt, alpha_140_179_full_data2.pt, and alpha_50_84_full_data2.pt - can be accessed in the Google Drive at https://drive.google.com/drive/folders/1YsUF74RZjhjf8w7ntydEQ6jDBkD-45Ou?usp=sharing. They are in the data_tensors folder of protein-sequence-embedding-iclr2019-master. 
+
+Daniel Fridman, Matthew Benstock, Jeremy Goldwasser
